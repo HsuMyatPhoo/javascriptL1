@@ -1,0 +1,58 @@
+body{
+	font-family:sans-serif;
+}
+
+.accordion{
+	width:100%;
+}
+
+.acctitle{
+	font-size:14px;
+	background:#777;
+	color:#fff;
+
+	padding:15px;
+	margin:0;
+	user-select:none;
+	cursor:pointer;
+}
+.acctitle:hover,.active{
+	background:steelblue;
+}
+
+.acctitle::after{
+	content:'\f067';
+	font-family:"Font Awesome 5 Free";
+
+	/*position:absolute;
+	right:15px;
+	top:50%;
+	transform:translateY(-50%);*/
+
+	float:right;
+}
+
+.active.activetitle::after{
+	content:'\f068';
+}
+
+.active::after{
+	content:'\f068';
+}
+
+
+.acccontent{
+	font-size:14px;
+	height:0;
+	background:#f4f4f4;
+
+	padding:0 20px;
+	text-indent:50px;
+	text-align:justify;
+	overflow:hidden;
+
+	transition:height ease-in-out 0.5s;
+
+}
+
+/*css ka add htr tae item ko float lote loh*/

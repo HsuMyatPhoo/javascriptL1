@@ -1,0 +1,130 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	height:100vh;
+	display:grid;
+	place-items:center;
+}
+
+.container{
+	width:800px;
+	/*background:linear-gradient(30deg,#4b5d67,#4b5d67,#322f3d,#59405c);*/
+	background:#4b5d67;
+	border-radius:10px;
+
+	padding:50px;
+	text-align:center;
+	box-shadow:8px 8px 4px rgba(0, 0, 0, 0.8);
+}
+
+.container h2{
+	font-size:29px;
+	color:#fff;
+
+	letter-spacing:2px;
+}
+.btn{
+	/*background:#9d788b;*/
+	background:#322f3d;
+	color:#fff;
+	border:none;
+	border-radius:7px;
+
+	padding:10px 15px;
+	margin:20px 10px;
+	box-shadow:3px 3px 2px lightblue;
+	cursor:pointer;
+
+}
+.btn:hover{
+	background:#59405c;
+}
+#normalscreen{
+	display:none;
+}
+.modal{
+	width:100%;
+	height:100%;
+	background:#4b5d67;
+
+	position:absolute;
+	top:0;
+	left:0;
+	display:none;
+}
+
+.modal span .fa-solid{
+	font-size:30px;
+	color:#fff;
+
+	padding:5px 10px;
+
+	position:absolute;
+	right:0px;
+	top:0px;
+
+	cursor:pointer;
+}
+.modal span .fa-solid:hover{
+	background:red;
+	color:#fff;
+}
+
+form{
+	width:500px;
+	margin:auto;
+
+}
+
+.input-group{
+	width:100%;
+	display:flex;
+
+	margin:20px 0;
+}
+
+.input-group .fa-solid{
+	font-size:23px;
+	width:70px;
+	background:#59405c;
+	color:#fff;
+
+	padding:10px;
+	text-align:center;
+	cursor:pointer;
+}
+
+.input-group-text{
+	font-size:20px;
+	width:100%;
+	height:50px;
+	display:inline-block;
+	border-radius:0px 3px 3px 0;
+	border:none;
+
+	padding:0px 10px;
+	outline:none;
+}
+.input-group-text:focus{
+	border:2px solid #59405c;
+}
+
+.d-grid button{
+	font-size:20px;
+	width:100%;
+	background:#59405c;
+	color:#fff;
+	box-shadow:3px 3px 2px lightblue;
+	border:none;
+
+	padding:15px;
+	cursor:pointer;
+	opacity:0.85;
+}
+
+.d-grid button:hover{
+	opacity:1;
+	
+}

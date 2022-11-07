@@ -1,0 +1,119 @@
+body{
+	font-size:20px;
+	background:#f4f4f4;
+
+	padding:0;
+	margin:0;
+	line-height:50px;
+
+}
+
+.header{
+	width:100%;
+	background:#f1f1f1;
+	background:skyblue;
+
+	position:fixed;
+	left:0;
+	top:0;
+
+	text-align:center;
+}
+
+.progress{
+	width:100%;
+	line-height:5px;
+	background:#bbb;
+}
+
+.progress-bar{
+	width:0;
+	height:5px;
+	background:forestgreen;
+}
+
+.content{
+	width:80%;
+	background:lightblue;
+	background:linear-gradient(skyblue,lightblue,white);
+
+	padding:50px 0;
+	margin:100px auto;
+}
+
+
+/*@media print{*/
+	/*.noprint{
+		visibility:hidden;
+	}*/
+
+	/*or*/
+
+	/**{
+		visibility:hidden;
+	}
+	.printarea *{
+		visibility:visible;
+	}*/
+	/*.printarea from * area */
+	
+
+	/*.header{
+		position:static;
+	}*/
+
+	/*.pagebreak{*/
+		/*page-break-before:always;*/
+		/*page-break-after:always;
+	}
+}*/
+
+/*@page{*/
+	/*size:portrait;*/
+	/*size:landscape;*/
+	/*size:auto;default*/
+
+	/*size:A4;
+	size:A4 landscape;
+	size:legal;*/
+
+/*	size:4in 6in;
+
+	margin:0;
+}
+*/
+
+
+
+
+/*@media print{}
+=>For print
+
+
+position:static;
+=>position fixed ko phyat tr
+=>overwrite phyit tl
+
+page-break-after:always;
+=>content ko one page lote pay tr 
+
+page-break-before:always;
+=>content ma tai khin page ta khu lote tr
+ */
+
+/*@page{}
+margin:0;
+=>ma lo tae ser ty ma pr ag lote tr
+
+size
+=>size ko define lote pay tr pyin ma ya ag
+=>portrait,landscape,auto,A4,legal,4in 6in,...
+
+
+*/
+
+
+/*print yay yin aunk sone mr yay ml or print ta file u ml & place under custome css */
+
+
+
